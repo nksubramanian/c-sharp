@@ -30,23 +30,20 @@ namespace Learning1
             Console.WriteLine(first_name + " "+ second_name);
         }
 
-        /*
+        
         public Employee(string first_name, string second_name)
         {
             this.first_name = first_name;
             this.second_name = second_name;
-        }*/
+        }
     }
 
     class PartTimeEmployee: Employee
     {
         public int salary;
-        public PartTimeEmployee(string first_name, string second_name, int salary)
+        public PartTimeEmployee(string first_name, string second_name, int salary) : base(first_name, second_name)
         {
-            this.first_name = first_name;
-            this.second_name = second_name;
             this.salary = salary;
-
         }
 
 

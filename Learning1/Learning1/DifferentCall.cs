@@ -31,11 +31,22 @@ namespace Learning1
             temp.swapbyref2(out a, out b);
             Console.WriteLine("a={0} and b={1}", a, b);
 
-
-
+            Temp t1 = new Temp(5, 6);
+            Method(t1);
+            Console.WriteLine(t1.a);
+            Console.WriteLine(t1.b);
 
         }
+
+        public static void Method(Temp temp)
+        {
+            temp = new Temp(8, 9);
+        }
+
     }
+
+
+
 
 
     class Temp

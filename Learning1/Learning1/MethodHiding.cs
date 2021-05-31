@@ -14,6 +14,7 @@ namespace Learning1
             ob.first_name = "a";
             ob.last_name = "b";
             ob.get_fullname();
+            ((BaseClass)ob).get_fullname();
 
 
 
@@ -30,7 +31,7 @@ namespace Learning1
 
 
 
-        public virtual void get_fullname()
+        public void get_fullname()
         {
             Console.WriteLine(first_name + " " + last_name);
         }
@@ -40,8 +41,10 @@ namespace Learning1
 
     class DerivedClass: BaseClass
     {
-        public override void get_fullname()
+        public void get_fullname()
         {
+            Console.WriteLine("*****************");
+            base.get_fullname();
             Console.WriteLine(first_name + " " + last_name+" derived class");
         }
 
