@@ -8,15 +8,14 @@ namespace Learning1
 {
     class MethodHiding
     {
-        public void Overridingmain()
+        public void MethodHidingmain()
         {
             DerivedClass ob = new DerivedClass();
             ob.first_name = "a";
             ob.last_name = "b";
             ob.get_fullname();
 
-            BaseClass obb = ob;
-            obb.get_fullname();
+
 
         }
 
@@ -31,7 +30,7 @@ namespace Learning1
 
 
 
-        public void get_fullname()
+        public virtual void get_fullname()
         {
             Console.WriteLine(first_name + " " + last_name);
         }
@@ -41,7 +40,7 @@ namespace Learning1
 
     class DerivedClass: BaseClass
     {
-        public new void get_fullname()
+        public override void get_fullname()
         {
             Console.WriteLine(first_name + " " + last_name+" derived class");
         }

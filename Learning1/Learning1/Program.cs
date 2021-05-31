@@ -19,7 +19,9 @@ namespace Learning1
             //ob.Inheritance1main();
             //Inheritance2 ob = new Inheritance2();
             //ob.Inheritance2main();
-            MethodHiding ob = new MethodHiding();
+            //MethodHiding ob = new MethodHiding();
+            //ob.MethodHidingmain();
+            Overriding ob = new Overriding();
             ob.Overridingmain();
 
 
