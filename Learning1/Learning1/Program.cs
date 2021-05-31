@@ -22,7 +22,8 @@ namespace Learning1
             //ob.MethodHidingmain();
             //Overriding ob = new Overriding();
             //ob.Overridingmain();
-            new overwriting().overwritingmain();
+            //new overwriting().overwritingmain();
+            new Interface().Interfacemain();
 
 
 
