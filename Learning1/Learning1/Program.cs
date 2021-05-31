@@ -27,7 +27,8 @@ namespace Learning1
             //new Interface2().interface2main();
             //new Structure().structuremain();
             //new AbstractClass().abstractclass();
-            new Delegate().delegatemain();
+            //new Delegate().delegatemain();
+            new DelegateUse().DelegateUseMain();
 
 
 
