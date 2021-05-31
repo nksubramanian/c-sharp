@@ -17,20 +17,22 @@ namespace Learning1
 
         public void destructor_demonstrate()
         {
-            A ob = new A();
-
-
+            for (int i = 0; i < 256 * 256; i++)
+            {
+                A ob = new A();
+            }
         }
-
-
     }
 
 
     class A
     {
+        int[] array;
+
         public A()
         {
-            Console.WriteLine("constructor is called");
+            //Console.WriteLine("constructor is called");
+            array = new int[128 * 128];
         }
 
         ~A()
