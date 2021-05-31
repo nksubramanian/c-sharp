@@ -25,7 +25,8 @@ namespace Learning1
             //new overwriting().overwritingmain();
             //new Interface().Interfacemain();
             //new Interface2().interface2main();
-            new Structure().structuremain();
+            //new Structure().structuremain();
+            new AbstractClass().abstractclass();
 
 
 
