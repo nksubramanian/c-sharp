@@ -13,6 +13,9 @@ namespace Learning1
         {
             xyz t = new xyz();
             t.print2();
+            skeleton w = new abc();
+            w.print();
+            
 
         }
     }
@@ -50,6 +53,19 @@ namespace Learning1
         }
     }
 
+    class abc : skeleton
+    {
+        public void print()
+        {
+            Console.WriteLine("interface can point to derived class object");
+        }
+
+        public string name()
+        {
+            return "xyz";
+        }
+
+    }
 
 
 
