@@ -21,6 +21,7 @@ namespace Learning1
 
     public abstract class Ab1
     {
+        public int a = 5;
         public void print()
         {
             Console.WriteLine("I am being implement");
@@ -33,9 +34,10 @@ namespace Learning1
 
     class deri : Ab1
     {
+
         public override void func()
         {
-            Console.WriteLine("now I am implemented");
+            Console.WriteLine("now I am implemented" + this.a);
         }
     }
 
