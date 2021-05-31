@@ -13,8 +13,10 @@ namespace Learning1
             //PrivateConstructor.PrivateConstructorMain();
             //Destructor ob = new Destructor();
             //ob.DestructorMain();
-            DifferentCall ob = new DifferentCall();
-            ob.DifferentCallmain();
+            //DifferentCall ob = new DifferentCall();
+            //ob.DifferentCallmain();
+            Inheritance1 ob = new Inheritance1();
+            ob.Inheritance1main();
 
 
 
