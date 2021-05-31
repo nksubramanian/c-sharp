@@ -7,8 +7,10 @@
         {
             //LearnEnum.EnumMain();
             //Constructor.ConstructorMain();
-            staticconstructor.staticconstructormain();
-       
+            //staticconstructor.staticconstructormain();
+            PrivateConstructor.PrivateConstructorMain();
+
+
 
         }
     }
