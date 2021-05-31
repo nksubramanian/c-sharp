@@ -15,8 +15,11 @@ namespace Learning1
             //ob.DestructorMain();
             //DifferentCall ob = new DifferentCall();
             //ob.DifferentCallmain();
-            Inheritance1 ob = new Inheritance1();
-            ob.Inheritance1main();
+            //Inheritance1 ob = new Inheritance1();
+            //ob.Inheritance1main();
+            Inheritance2 ob = new Inheritance2();
+            ob.Inheritance2main();
+
 
 
 
