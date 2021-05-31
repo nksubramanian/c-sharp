@@ -28,8 +28,8 @@ namespace Learning1
             //new Structure().structuremain();
             //new AbstractClass().abstractclass();
             //new Delegate().delegatemain();
-            new DelegateUse().DelegateUseMain();
-
+            //new DelegateUse().DelegateUseMain();
+            NewDeletage.Run();
 
 
 
