@@ -26,6 +26,10 @@ namespace Learning1
             Console.WriteLine("a={0} and b={1}", a, b);
             temp.swapbyref1(ref a, ref b);
             Console.WriteLine("a={0} and b={1}", a, b);
+            Console.WriteLine("Call by ref second method using out");
+            Console.WriteLine("a={0} and b={1}", a, b);
+            temp.swapbyref2(out a, out b);
+            Console.WriteLine("a={0} and b={1}", a, b);
 
 
 
@@ -75,6 +79,17 @@ namespace Learning1
             b = temp;
 
         }
+
+
+        public void swapbyref2(out int a, out int b)
+        {
+            a = 10;
+            b = 19;
+
+        }
+
+
+
 
     }
 
