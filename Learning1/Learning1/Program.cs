@@ -11,9 +11,10 @@ namespace Learning1
             //Constructor.ConstructorMain();
             //staticconstructor.staticconstructormain();
             //PrivateConstructor.PrivateConstructorMain();
-            Destructor ob = new Destructor();
-            ob.DestructorMain();
-            Console.WriteLine("is destructor called yet?");
+            //Destructor ob = new Destructor();
+            //ob.DestructorMain();
+            DifferentCall ob = new DifferentCall();
+            ob.DifferentCallmain();
 
 
 
