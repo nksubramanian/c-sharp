@@ -24,7 +24,8 @@ namespace Learning1
             //ob.Overridingmain();
             //new overwriting().overwritingmain();
             //new Interface().Interfacemain();
-            new Interface2().interface2main();
+            //new Interface2().interface2main();
+            new Structure().structuremain();
 
 
 
