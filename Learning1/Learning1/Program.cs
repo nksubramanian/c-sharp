@@ -6,7 +6,9 @@
         static void Main(string[] args)
         {
             //LearnEnum.EnumMain();
-            Constructor.ConstructorMain();
+            //Constructor.ConstructorMain();
+            staticconstructor.staticconstructormain();
+       
 
         }
     }
