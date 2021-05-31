@@ -16,7 +16,6 @@ namespace Learning1
             A1.function(5.3);
             int a = 5;
             A1.function(ref a);
-            A1.function(out a);
 
 
         }
@@ -39,10 +38,6 @@ namespace Learning1
             Console.WriteLine("one parameter with double");
         }
         public static void function(ref int a)
-        {
-            Console.WriteLine("one parameter ref int");
-        }
-        public static void function(out int a)
         {
             Console.WriteLine("one parameter ref int");
         }
