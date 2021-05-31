@@ -1,4 +1,6 @@
-﻿namespace Learning1
+﻿using System;
+
+namespace Learning1
 {
     class Program
     {
@@ -8,7 +10,10 @@
             //LearnEnum.EnumMain();
             //Constructor.ConstructorMain();
             //staticconstructor.staticconstructormain();
-            PrivateConstructor.PrivateConstructorMain();
+            //PrivateConstructor.PrivateConstructorMain();
+            Destructor ob = new Destructor();
+            ob.DestructorMain();
+            Console.WriteLine("is destructor called yet?");
 
 
 
