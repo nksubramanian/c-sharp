@@ -17,8 +17,10 @@ namespace Learning1
             //ob.DifferentCallmain();
             //Inheritance1 ob = new Inheritance1();
             //ob.Inheritance1main();
-            Inheritance2 ob = new Inheritance2();
-            ob.Inheritance2main();
+            //Inheritance2 ob = new Inheritance2();
+            //ob.Inheritance2main();
+            MethodHiding ob = new MethodHiding();
+            ob.Overridingmain();
 
 
 
