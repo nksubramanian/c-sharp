@@ -29,7 +29,8 @@ namespace Learning1
             //new AbstractClass().abstractclass();
             //new Delegate().delegatemain();
             //new DelegateUse().DelegateUseMain();
-            NewDeletage.Run();
+            //NewDeletage.Run();
+            new MultiCastDelegate().MultiCastDelegateMain();
 
 
 
