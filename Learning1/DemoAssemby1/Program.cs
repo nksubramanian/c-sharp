@@ -2,7 +2,7 @@
 
 namespace DemoAssemby1
 {
-    class Program
+    public class Program
     {
         static void Main(string[] args)
         {
@@ -10,7 +10,7 @@ namespace DemoAssemby1
         }
 
 
-        class H
+        public class H
         {
             internal int x = 3;
             public int y = 4;

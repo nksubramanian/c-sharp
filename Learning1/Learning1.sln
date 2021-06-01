@@ -5,7 +5,7 @@ VisualStudioVersion = 16.0.31205.134
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Learning1", "Learning1\Learning1.csproj", "{7F6FBDA3-E92F-4578-837E-C331333AF77D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DemoAssemby1", "DemoAssemby1\DemoAssemby1.csproj", "{37B0EB46-8DAD-412D-BB0C-3F6445E41F2B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DemoAssembly1", "DemoAssemby1\DemoAssembly1.csproj", "{37B0EB46-8DAD-412D-BB0C-3F6445E41F2B}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DemoAssembly2", "DemoAssembly2\DemoAssembly2.csproj", "{504B10BB-08F6-43EF-891E-AFA86DB439D5}"
 EndProject
