@@ -40,7 +40,8 @@ namespace Learning1
             //new ReflectionDemo().ReflectionDemoMain();
             //new Indexer().indexermain();
             //new IndexerOverloading().IndexerOverloadingmain();
-            new NestedClass().NestedClassmain();
+            //new NestedClass().NestedClassmain();
+            new NamedParameter().NamedParametermain();
 
         }
     }
