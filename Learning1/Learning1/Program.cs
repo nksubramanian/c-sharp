@@ -48,7 +48,8 @@ namespace Learning1
             //new DelegateForEach().DelegateForEachmain();
             //new Linq().Linqmain();
             //new QuerySyntax().QuerySyntaxmain();
-            new ArrayListDemo().ArrayListDemomain();
+            //new ArrayListDemo().ArrayListDemomain();
+             new SortedListX().SortedListXmain();
         }
     }
 
