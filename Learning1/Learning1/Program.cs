@@ -36,7 +36,8 @@ namespace Learning1
             //new TryCatch().TryCatchmain();
             //new AccessModifiers().AccessModifiersmain();
             //new ProtectedDemo().ProtectedDemomain();
-            new Attributes().Attributesmain();
+            //new Attributes().Attributesmain();
+            new ReflectionDemo().ReflectionDemoMain();
 
 
         }
