@@ -35,7 +35,7 @@ namespace Learning1
             //new Conversion().Conversionmain();
             //new TryCatch().TryCatchmain();
             //new AccessModifiers().AccessModifiersmain();
-            new ProtectedDemo().ProtectedDemomain();
+            //new ProtectedDemo().ProtectedDemomain();
 
 
         }
