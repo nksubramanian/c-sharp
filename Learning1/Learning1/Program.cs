@@ -30,7 +30,8 @@ namespace Learning1
             //new Delegate().delegatemain();
             //new DelegateUse().DelegateUseMain();
             //NewDeletage.Run();
-            new MultiCastDelegate().MultiCastDelegateMain();
+            //new MultiCastDelegate().MultiCastDelegateMain();
+            new MultiDelegateReturn().MultiDelegateReturnmain();
 
 
 
