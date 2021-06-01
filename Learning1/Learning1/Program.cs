@@ -32,8 +32,8 @@ namespace Learning1
             //NewDeletage.Run();
             //new MultiCastDelegate().MultiCastDelegateMain();
             //new MultiDelegateReturn().MultiDelegateReturnmain();
-            new Conversion().Conversionmain();
-
+            //new Conversion().Conversionmain();
+            new TryCatch().TryCatchmain();
 
 
         }
