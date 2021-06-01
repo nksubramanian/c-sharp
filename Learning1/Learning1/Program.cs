@@ -49,7 +49,8 @@ namespace Learning1
             //new Linq().Linqmain();
             //new QuerySyntax().QuerySyntaxmain();
             //new ArrayListDemo().ArrayListDemomain();
-             new SortedListX().SortedListXmain();
+            //new SortedListX().SortedListXmain();
+            new HashTable().HashTablemain();
         }
     }
 
