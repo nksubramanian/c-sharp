@@ -39,7 +39,8 @@ namespace Learning1
             //new Attributes().Attributesmain();
             //new ReflectionDemo().ReflectionDemoMain();
             //new Indexer().indexermain();
-            new IndexerOverloading().IndexerOverloadingmain();
+            //new IndexerOverloading().IndexerOverloadingmain();
+            new NestedClass().NestedClassmain();
 
         }
     }
