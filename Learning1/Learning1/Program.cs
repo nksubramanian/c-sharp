@@ -52,7 +52,8 @@ namespace Learning1
             //new SortedListX().SortedListXmain();
             //new HashTable().HashTablemain();
             //new GenericsDemo().GenericsDemoMain();
-            new DictionaryDemo().DictionaryDemomain();
+            //new DictionaryDemo().DictionaryDemomain();
+            new ListDemo().ListDemomain();
         }
     }
 
