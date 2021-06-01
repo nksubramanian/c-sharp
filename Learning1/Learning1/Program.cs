@@ -53,7 +53,8 @@ namespace Learning1
             //new HashTable().HashTablemain();
             //new GenericsDemo().GenericsDemoMain();
             //new DictionaryDemo().DictionaryDemomain();
-            new ListDemo().ListDemomain();
+            //new ListDemo().ListDemomain();
+            new stream().streammain();
         }
     }
 
