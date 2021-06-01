@@ -43,7 +43,8 @@ namespace Learning1
             //new NestedClass().NestedClassmain();
             //new NamedParameter().NamedParametermain();
             //new AnonymousMethods().AnonymousMethodsmain();
-            new LambdaExpression().LambdaExpressionMain();
+            //new LambdaExpression().LambdaExpressionMain();
+            new ExtensionMethods().ExtensionMethodsmain();
         }
     }
 
