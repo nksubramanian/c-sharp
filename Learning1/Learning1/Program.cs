@@ -33,7 +33,9 @@ namespace Learning1
             //new MultiCastDelegate().MultiCastDelegateMain();
             //new MultiDelegateReturn().MultiDelegateReturnmain();
             //new Conversion().Conversionmain();
-            new TryCatch().TryCatchmain();
+            //new TryCatch().TryCatchmain();
+            //new AccessModifiers().AccessModifiersmain();
+            new ProtectedDemo().ProtectedDemomain();
 
 
         }

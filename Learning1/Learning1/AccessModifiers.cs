@@ -8,5 +8,34 @@ namespace Learning1
 {
     class AccessModifiers
     {
+        public void AccessModifiersmain()
+        {
+            EmployeeX c = new EmployeeX();
+            c.Id = 4;
+
+        }
     }
+
+
+    public class EmployeeX
+    {
+        private int _Id;
+
+        public int Id
+        {
+            get
+            {
+                return _Id;
+
+            }
+
+            set
+            {
+                this._Id = Id;
+            }
+        }
+
+    }
+
+
 }
