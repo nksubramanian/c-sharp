@@ -41,8 +41,8 @@ namespace Learning1
             //new Indexer().indexermain();
             //new IndexerOverloading().IndexerOverloadingmain();
             //new NestedClass().NestedClassmain();
-            new NamedParameter().NamedParametermain();
-
+            //new NamedParameter().NamedParametermain();
+            new AnonymousMethods().AnonymousMethodsmain();
         }
     }
 
