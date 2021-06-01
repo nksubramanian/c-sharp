@@ -46,7 +46,8 @@ namespace Learning1
             //new LambdaExpression().LambdaExpressionMain();
             //new ExtensionMethods().ExtensionMethodsmain();
             //new DelegateForEach().DelegateForEachmain();
-            new Linq().Linqmain();
+            //new Linq().Linqmain();
+            new QuerySyntax().QuerySyntaxmain();
         }
     }
 
