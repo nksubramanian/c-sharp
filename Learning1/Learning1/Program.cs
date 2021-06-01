@@ -45,7 +45,8 @@ namespace Learning1
             //new AnonymousMethods().AnonymousMethodsmain();
             //new LambdaExpression().LambdaExpressionMain();
             //new ExtensionMethods().ExtensionMethodsmain();
-            new DelegateForEach().DelegateForEachmain();
+            //new DelegateForEach().DelegateForEachmain();
+            new Linq().Linqmain();
         }
     }
 
