@@ -54,7 +54,8 @@ namespace Learning1
             //new GenericsDemo().GenericsDemoMain();
             //new DictionaryDemo().DictionaryDemomain();
             //new ListDemo().ListDemomain();
-            new stream().streammain();
+            //new stream().streammain();
+            new varDemo().varDemomain();
         }
     }
 
