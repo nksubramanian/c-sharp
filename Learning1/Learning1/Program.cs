@@ -55,7 +55,8 @@ namespace Learning1
             //new DictionaryDemo().DictionaryDemomain();
             //new ListDemo().ListDemomain();
             //new stream().streammain();
-            new varDemo().varDemomain();
+            //new varDemo().varDemomain();
+            new dynamictype().dynamictypemain();
         }
     }
 
