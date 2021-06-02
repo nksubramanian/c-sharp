@@ -57,7 +57,9 @@ namespace Learning1
             //new stream().streammain();
             //new varDemo().varDemomain();
             //new dynamictype().dynamictypemain();
-            new ObjectInitializer().ObjectIntializermain();
+            //new ObjectInitializer().ObjectIntializermain();
+            //new AnonymousType().AnonymousTypemain();
+            new AsynchronousProgramming().AsynchronousProgrammingmain();
         }
     }
 
