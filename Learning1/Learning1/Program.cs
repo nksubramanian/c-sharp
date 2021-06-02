@@ -59,7 +59,12 @@ namespace Learning1
             //new dynamictype().dynamictypemain();
             //new ObjectInitializer().ObjectIntializermain();
             //new AnonymousType().AnonymousTypemain();
-            new AsynchronousProgramming().AsynchronousProgrammingmain();
+            //new AsynchronousProgramming().AsynchronousProgrammingmain();
+            new asyncandawait().asyncandawaitmain();
+
+
+
+
         }
     }
 
